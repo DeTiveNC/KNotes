@@ -2,7 +2,7 @@
 
 ## Environment setup
 ```
-npm install
+bun install
 ```
 
 ## Build Vaadin frontend
