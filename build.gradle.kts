@@ -24,7 +24,7 @@ dependencies {
 
     // database
     implementation("com.zaxxer:HikariCP:6.3.0")
-    implementation("org.postgresql:postgresql:42.7.5")
+    implementation("org.postgresql:postgresql:42.7.7")
 
     // misc
     implementation("org.slf4j:slf4j-simple:2.0.9")
