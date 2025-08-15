@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     // vaadin
-    implementation("com.vaadin:vaadin-core:24.7.2")
+    implementation("com.vaadin:vaadin-core:24.8.6")
     implementation("com.github.mvysny.vaadin-boot:vaadin-boot:13.3")
     implementation("com.github.mvysny.karibudsl:karibu-dsl:2.3.2")
 
