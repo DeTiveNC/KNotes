@@ -15,7 +15,7 @@ dependencies {
     // vaadin
     implementation("com.vaadin:vaadin-core:24.8.6")
     implementation("com.github.mvysny.vaadin-boot:vaadin-boot:13.3")
-    implementation("com.github.mvysny.karibudsl:karibu-dsl:2.3.2")
+    implementation("com.github.mvysny.karibudsl:karibu-dsl:2.4.0")
 
     // exposed
     implementation("org.jetbrains.exposed:exposed-core:0.61.0")
