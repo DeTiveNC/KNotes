@@ -23,7 +23,7 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-jdbc:0.61.0")
 
     // database
-    implementation("com.zaxxer:HikariCP:6.3.0")
+    implementation("com.zaxxer:HikariCP:7.0.1")
     implementation("org.postgresql:postgresql:42.7.7")
 
     // misc
