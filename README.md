@@ -65,4 +65,4 @@ Once the development setup is complete, you can run the application in one of th
 2. Navigate to `/src/main/kotlin/com/knotes/Main.kt`.
 3. Run the `main()` function.
 
-After starting the application, you can access it by navigating to `http://localhost:8080` in your web browser.
+After starting the application, you can access it by navigating to `http://localhost:8080` in your web browser
