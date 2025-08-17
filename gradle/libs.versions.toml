@@ -1,0 +1,26 @@
+[versions]
+kotlin = "2.2.10"
+vaadin = "24.8.6"
+vaadinBoot = "13.3"
+karibuDsl = "2.4.0"
+exposed = "0.61.0"
+hikariCP = "7.0.1"
+postgresql = "42.7.7"
+slf4j = "2.0.17"
+
+[libraries]
+vaadin-core = { module = "com.vaadin:vaadin-core", version.ref = "vaadin" }
+vaadin-boot = { module = "com.github.mvysny.vaadin-boot:vaadin-boot", version.ref = "vaadinBoot" }
+karibu-dsl = { module = "com.github.mvysny.karibudsl:karibu-dsl", version.ref = "karibuDsl" }
+
+exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
+exposed-java-time = { module = "org.jetbrains.exposed:exposed-java-time", version.ref = "exposed" }
+exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }
+
+hikariCP = { module = "com.zaxxer:HikariCP", version.ref = "hikariCP" }
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+vaadin = { id = "com.vaadin", version.ref = "vaadin" }
