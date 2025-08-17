@@ -34,7 +34,7 @@
     "rollup-plugin-visualizer": "6.0.3",
     "strip-css-comments": "5.0.0",
     "transform-ast": "2.4.4",
-    "typescript": "5.7.3",
+    "typescript": "5.9.2",
     "vite": "7.1.2",
     "vite-plugin-checker": "0.8.0",
     "workbox-build": "7.3.0",
