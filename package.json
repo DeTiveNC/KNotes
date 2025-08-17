@@ -24,7 +24,7 @@
     "@babel/preset-react": "7.27.1",
     "@preact/signals-react-transform": "0.5.2",
     "@rollup/plugin-replace": "6.0.2",
-    "@rollup/pluginutils": "5.1.4",
+    "@rollup/pluginutils": "5.2.0",
     "@types/react": "18.3.23",
     "@types/react-dom": "18.3.7",
     "@vitejs/plugin-react": "4.3.4",
