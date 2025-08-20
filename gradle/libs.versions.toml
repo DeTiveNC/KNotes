@@ -4,7 +4,7 @@ vaadin = "24.8.6"
 vaadinBoot = "13.3"
 karibuDsl = "2.4.0"
 exposed = "0.61.0"
-hikariCP = "7.0.1"
+hikariCP = "7.0.2"
 postgresql = "42.7.7"
 slf4j = "2.0.17"
 
