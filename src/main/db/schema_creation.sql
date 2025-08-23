@@ -1,4 +1,4 @@
-drop table todos;
+drop table if exists todos;
 
 CREATE TABLE public.Todos (
     id serial NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE public.Todos (
     CONSTRAINT todos_user_unique UNIQUE (user_id)
 );
   
-drop table users; 
+drop table if exists users;
 CREATE TABLE public.Users (
     id serial NOT NULL,
     name VARCHAR(255) NOT NULL,
