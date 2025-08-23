@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "2.0.21"
-    id("com.vaadin") version "24.6.4"
+    id("com.vaadin") version "24.8.6"
     application
 }
 
