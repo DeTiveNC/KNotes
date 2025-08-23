@@ -20,4 +20,4 @@ jobs:
     - name: Set up Bun
       uses: oven-sh/setup-bun@v2
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew build -Pvaadin.productionMode
